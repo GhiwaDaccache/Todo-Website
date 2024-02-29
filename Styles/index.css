@@ -6,18 +6,15 @@
 }
 
 .header{
-    width: 100%;
     height: 70px;
-    display: flex;
     font-family: "roboto";
-    
+    justify-content: space-between;
+    align-items: center;
 }
 
 .title{
     margin:20px;
     font-size: 25px;
-    display: flex;
-
 }
 
 .logo{
@@ -33,5 +30,60 @@
 }
 
 .log-in{
-    
+    height: 40px;
+    width: 100px;
+    margin:20px;
+    border-radius: 5px;
+}
+
+.log-in a{
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.main-page{
+    height: 100vh;
+    padding: 20px;
+    flex-direction: column;
+    align-items: space-between; 
+}
+
+.hero{
+    font-size: 50px;
+    background-color: black;
+    height: 80%;
+    justify-content: center;
+    position:relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 20%;
+    font-family: "roboto";
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .title {
+        margin-bottom: 10px;
+    }
+
+    .log-in {
+        margin-top: 10px;
+    }
+
+    .main-page {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .title {
+        font-size: 20px; 
+    }
+
+    .log-in {
+        width: 80px; 
+    }
 }
