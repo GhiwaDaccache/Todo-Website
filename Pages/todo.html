@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../Styles/colors.css" />
     <link rel="stylesheet" href="../Styles/utilities.css" />
     <link rel="stylesheet" href="../Styles/todo.css" />
-    <title>To-Do Website</title>
+    <title>Profile</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -21,8 +21,8 @@
                 <img class="image" src="../Elements/Untitled design.png" />
             </div>  
         </section>
-        <a class="log-in secondary-color primary-color-t flex center" href="./Pages/login.html">
-            <p>LOG IN</p>
+        <a class="log-in secondary-color primary-color-t flex center" href="../index.html">
+            <p>Home</p>
         </a>
     </header>
 
@@ -33,58 +33,34 @@
                 <div class="list-name secondary-color-t">
                     <p>Personal</p>
                 </div>
-                <div class="list-item secondary-color-t">
-                    <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
-                </div>
-                <div class="list-item secondary-color-t">
-                    <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
-                </div>
-                <div class="list-item secondary-color-t">
-                    <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
+                <div class="list-item secondary-color primary-color-t">
+                    <input id="checkbox" type="checkbox" />
+                    <p>Walk the dog</p>
                 </div>
             </div>
                 <div class="list flex column primary-color" id="products-container">
                     <div class="list-name secondary-color-t">
                         <p>Home</p>
                     </div>
-                    <div class="list-item secondary-color-t">
-                        <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
-                    </div>
-                    <div class="list-item secondary-color-t">
-                        <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
-                    </div>
-                    <div class="list-item secondary-color-t">
-                        <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
-                    </div>
                 </div>
                 <div class="list flex column primary-color" id="products-container">
                     <div class="list-name secondary-color-t">
                         <p>Work</p>
-                    </div>
-                    <div class="list-item secondary-color-t">
-                        <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
-                    </div>
-                    <div class="list-item secondary-color-t">
-                        <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
-                    </div>
-                    <div class="list-item secondary-color-t">
-                        <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
                     </div>
                 </div>
                 <div class="list flex column primary-color" id="products-container">
                     <div class="list-name secondary-color-t">
                         <p>Shop List</p>
                     </div>
-                    <div class="list-item secondary-color-t">
-                        <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
-                    </div>
-                    <div class="list-item secondary-color-t">
-                        <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
-                    </div>
-                    <div class="list-item secondary-color-t">
-                        <input type="checkbox"/> <input class="inputs flex center secondary-color" type="text" placeholder="Add new item">
-                    </div>
                 </div>
+          </section>
+          <section>
+            <div>
+                Task input <input type="text">
+            </div>
+            <div> 
+                <div ><button id="log-button" class="inputs flex center secondary-color"  type="submit"><p>Add Task</p></button></div>
+            </div>
           </section>
           
     </main>

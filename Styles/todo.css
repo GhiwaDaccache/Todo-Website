@@ -1,12 +1,3 @@
-/* ref 
-.main-page{
-    height: 100vh;
-    padding: 20px;
-    flex-direction: column;
-    align-items: space-between; 
-}
-*/
-
 .todo-title{
     font-family: "Roboto";
     font-size: 30px;
@@ -39,6 +30,11 @@
   }
 
 .list-item{
-    font-family: "roboto";
-    font-size: 15px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.list-item p{
+  font-family: "roboto";
+  font-size: 15px;
 }
