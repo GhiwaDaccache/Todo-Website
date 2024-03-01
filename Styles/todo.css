@@ -1,0 +1,41 @@
+/* ref 
+.main-page{
+    height: 100vh;
+    padding: 20px;
+    flex-direction: column;
+    align-items: space-between; 
+}
+*/
+
+.todo-title{
+    font-family: "Roboto";
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.lists-container {
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px
+}
+
+.list {
+    height: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 250px;
+    min-width: 215px;
+    justify-content: space-around;
+  }
+
+  .list-name{
+    text-align: center;
+    font-family: "Roboto";
+  }
+
+  .list-item{
+    gap: 10px;
+  }
